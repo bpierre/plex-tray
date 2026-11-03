@@ -9,7 +9,13 @@ polling. Supports colored and theme-aware monochrome icons.
 Requires the `plex-media-server` package and a StatusNotifier-compatible tray,
 such as Waybar or Plasma. GNOME needs an AppIndicator extension.
 
-Download the x86_64 package from [Releases](https://github.com/bpierre/plex-tray/releases/latest), then install it:
+Install from the [AUR](https://aur.archlinux.org/packages/plex-tray) with an AUR helper such as Paru:
+
+```sh
+paru -S plex-tray
+```
+
+Or download the x86_64 package from [Releases](https://github.com/bpierre/plex-tray/releases/latest), then install it:
 
 ```sh
 sudo pacman -U ./plex-tray-0.1.0-3-x86_64.pkg.tar.zst
