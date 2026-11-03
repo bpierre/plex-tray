@@ -1,0 +1,9 @@
+// Active local desktop users may start and stop only the Plex system service.
+polkit.addRule(function(action, subject) {
+    if (action.id === "org.freedesktop.systemd1.manage-units" &&
+        action.lookup("unit") === "plexmediaserver.service" &&
+        (action.lookup("verb") === "start" || action.lookup("verb") === "stop") &&
+        subject.local && subject.active) {
+        return polkit.Result.YES;
+    }
+});

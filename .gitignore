@@ -1,0 +1,6 @@
+/target/
+/.makepkg/
+/pkg/
+/*.pkg.tar.*
+/*.log
+/dist/

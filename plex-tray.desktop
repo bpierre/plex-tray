@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Plex Media Server
+Comment=Start Plex Media Server and show its tray controls
+Exec=plex-tray
+TryExec=plex-tray
+Icon=plex-tray
+Terminal=false
+StartupNotify=false
+Categories=AudioVideo;
+Keywords=Plex;Media;Server;

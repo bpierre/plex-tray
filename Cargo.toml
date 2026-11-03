@@ -1,0 +1,22 @@
+[package]
+name = "plex-tray"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Arch Linux tray controls for the system Plex Media Server service"
+authors = ["Pierre Bertet <hi@bpier.re>"]
+license = "MIT"
+repository = "https://github.com/bpierre/plex-tray"
+readme = "README.md"
+publish = false
+
+[dependencies]
+anyhow = "1"
+futures-util = "0.3"
+ksni = "0.3"
+tokio = { version = "1", features = ["macros", "rt", "process", "signal", "sync"] }
+zbus = { version = "5", default-features = false, features = ["tokio"] }
+
+[profile.release]
+lto = "thin"
+strip = true
