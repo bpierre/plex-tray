@@ -448,7 +448,9 @@ mod tests {
             let icons = tray.icon_pixmap();
             let visible: Vec<_> = icons[0]
                 .data
-                .chunks_exact(4)
+                .as_chunks::<4>()
+                .0
+                .iter()
                 .filter(|pixel| pixel[0] != 0)
                 .collect();
             assert!(!visible.is_empty());
