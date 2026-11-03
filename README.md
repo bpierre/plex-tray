@@ -9,13 +9,19 @@ polling. Supports colored and theme-aware monochrome icons.
 Requires the `plex-media-server` package and a StatusNotifier-compatible tray,
 such as Waybar or Plasma. GNOME needs an AppIndicator extension.
 
-From this checkout, with Rust 1.89+, Cargo, and `base-devel` installed:
+Download the x86_64 package from [Releases](https://github.com/bpierre/plex-tray/releases/latest), then install it:
+
+```sh
+sudo pacman -U ./plex-tray-0.1.0-3-x86_64.pkg.tar.zst
+```
+
+Or build from this checkout with Rust 1.89+, Cargo, and `base-devel` installed:
 
 ```sh
 makepkg -si
 ```
 
-This installs a local pacman package. Normal administrator authorization is
+Normal administrator authorization is
 required for installation; afterward, active local desktop users can start
 and stop only Plex without a password. The packaged Polkit rule is removed
 on uninstall. It does not grant remote/inactive sessions access or authorize

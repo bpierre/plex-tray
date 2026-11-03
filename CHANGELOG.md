@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 — 2026-11-03
 
 - System Plex service controls through a native Linux tray icon.
 - Passwordless start/stop for active local desktop users via a package-owned
