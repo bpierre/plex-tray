@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="352" height="444" viewBox="0 0 352 444" role="img" aria-labelledby="title description">
+  <title id="title">plex-tray preview</title>
+  <desc id="description">Illustrated Linux desktop tray with Plex running. The menu offers Open Plex, a disabled Start Plex, Stop Plex, an unchecked Monochrome icon option, and Quit Plex.</desc>
+  <rect width="352" height="444" rx="12" fill="#1b1f26"/>
+  <g font-family="DejaVu Sans, sans-serif">
+    <!-- A stylized desktop panel, with the Plex tray item selected. -->
+    <rect x="24" y="24" width="304" height="54" rx="12" fill="#111419" stroke="#353a43"/>
+    <rect x="55" y="32" width="42" height="38" rx="8" fill="#e5a00d" fill-opacity=".12"/>
+    <path d="M5 2h7l7 10-7 10H5l7-10z" transform="translate(64 39)" fill="#e5a00d"/>
+    <g fill="none" stroke="#b6bdc8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M116 48q10-10 20 0m-16 4q6-6 12 0m-8 4q2-2 4 0"/>
+      <path d="M158 48h4l5-4v14l-5-4h-4zm14-2q5 5 0 10"/>
+      <rect x="200" y="45" width="22" height="12" rx="2"/>
+      <path d="M225 49v4"/>
+    </g>
+    <rect x="203" y="48" width="15" height="6" rx="1" fill="#b6bdc8"/>
+    <text x="312" y="57" text-anchor="end" font-size="16" fill="#d7dbe2">7:42 PM</text>
+    <!-- Menu order and enabled states match the app while Plex is running. -->
+    <rect x="30" y="97" width="304" height="326" rx="13" fill="#000" opacity=".22"/>
+    <path d="M37 91H68L76 83L84 91H315Q328 91 328 104V404Q328 417 315 417H37Q24 417 24 404V104Q24 91 37 91Z" fill="#252a32" stroke="#424750" stroke-linejoin="round"/>
+    <text x="50" y="128" font-size="15" fill="#aab1bc">Plex: running</text>
+    <path d="M38 147h276M38 281h276M38 346h276" stroke="#3d424b"/>
+    <rect x="34" y="158" width="284" height="38" rx="6" fill="#e5a00d"/>
+    <text x="50" y="183" font-size="16" fill="#201b0e">Open Plex</text>
+    <text x="50" y="221" font-size="16" fill="#747c89">Start Plex</text>
+    <text x="50" y="259" font-size="16" fill="#e4e7ec">Stop Plex</text>
+    <rect x="50" y="306" width="15" height="15" rx="3" fill="none" stroke="#8f98a6" stroke-width="1.5"/>
+    <text x="78" y="320" font-size="16" fill="#e4e7ec">Monochrome icon</text>
+    <text x="50" y="386" font-size="16" fill="#e4e7ec">Quit Plex</text>
+  </g>
+</svg>

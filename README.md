@@ -4,6 +4,8 @@ A small Rust tray app for controlling Plex Media Server on Arch Linux.
 Start, stop, and quit Plex, open its web interface, and see its status without
 polling. Supports colored and theme-aware monochrome icons.
 
+![Illustrative preview of plex-tray with Plex running and its tray menu open](docs/preview.svg)
+
 ## Install
 
 Requires the `plex-media-server` package and a StatusNotifier-compatible tray,
